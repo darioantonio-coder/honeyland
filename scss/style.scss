@@ -1,0 +1,43 @@
+$widht: 50%;
+$background: color;
+$fontSize: 15pt;
+
+.cimageSize {
+     width: $widht*2;
+}
+
+.cformColor {
+    @if $background == color {
+        background-color: darkorange;
+    } @else if $background != color {
+        background-color: black;
+    }
+}
+
+.footerFlex {
+    display: flex;
+    flex-direction: row;
+    background-color: darkorange;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.socialNetworks {
+    width: 20%; 
+    margin-left: 5%;
+}
+
+.founderInfo {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: $fontSize;
+
+}
+
+.copyright {
+    width: 20%;
+    margin-right: 5%;
+    font-size: $fontSize;
+}
+
