@@ -1,6 +1,6 @@
 $widht: 50%;
 $background: color;
-$fontSize: 15pt;
+$fontSize: 10pt;
 
 .cimageSize {
      width: $widht*2;
@@ -25,6 +25,7 @@ $fontSize: 15pt;
 .socialNetworks {
     width: 20%; 
     margin-left: 5%;
+    font-size: $fontSize;
 }
 
 .founderInfo {
