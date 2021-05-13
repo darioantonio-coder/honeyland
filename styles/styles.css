@@ -18,6 +18,10 @@ h1 {
   background-color: darkorange;
 }
 
+.tableInfo {
+  margin-left: 20%;
+}
+
 section ul li a {
   display: inline;
   font-family: "Fredericka the Great", cursive;
@@ -156,7 +160,7 @@ footer div {
   align-items: center;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 10vw;
+  margin-left: 30%;
 }
 
 .sizeImage {
@@ -240,6 +244,10 @@ footer div {
     margin-left: 10%;
   }
 
+  .tableInfo {
+    margin-left: 4%;
+  }
+
 
 
 }
@@ -255,6 +263,8 @@ footer div {
    
     margin-right: 8vw;
   }
+
+
 }
 
 @media only screen and (min-width: 1280px) {
